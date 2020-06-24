@@ -23,3 +23,11 @@ Route::post('/delete','admin\IndexController@delete');
 Route::post('/changeValue','admin\IndexController@changeValue');
 Route::get('/upload','admin\IndexController@upload');
 Route::any('/uploadadd','admin\IndexController@uploadadd');
+
+//分类
+Route::any('sortadd',"admin\IndexController@sortadd");
+Route::any('classifyadd',"admin\IndexController@classifyadd");
+Route::any('reveal',"admin\IndexController@reveal");
+Route::any('deldo',"admin\IndexController@deldo");
+Route::any('alter',"admin\IndexController@alter");
+Route::any('updata',"admin\IndexController@updata");
