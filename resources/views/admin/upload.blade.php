@@ -19,7 +19,7 @@
 </style>
 <body>
 	<input type="file" name="file_upload" id="file_upload">
-	<div class="show"></div>
+	<div class="show">上传</div>
 </body>
 </html>
 
